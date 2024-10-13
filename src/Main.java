@@ -4,6 +4,7 @@ public class Main {
         Grades grade = new Grades(gradesArray);
         int res[] = grade.notSufficient();
 
+        System.out.println("Aufgabe 1:");
         //punkt 1
         for(int i = 0; i<res.length; i++)
         {
@@ -27,5 +28,15 @@ public class Main {
         //punkt 4
 
         System.out.println(grade.maxGrade());
+
+
+        //Aufgabe 2
+
+        int[] numbersArray = {4 , 8, 3, 10, 17};
+        Numbers numbers = new Numbers(numbersArray);
+        System.out.println(numbers.findMin());
+        System.out.println(numbers.findMax());
+        System.out.println(numbers.minSum());
+        System.out.println(numbers.maxSum());
     }
 }
