@@ -81,6 +81,30 @@ public class Main {
         {
             System.out.print(divNr[i] + " ");
         }
+        System.out.println();
+
+        //Aufgabe 4
+        System.out.println("Aufgabe 4:");
+        int[] keyboardPrices = {40, 35, 70, 15, 45};
+        int[] USBprices = {20, 15, 40, 15};
+
+        //punkt 1
+        Electronics electronics = new Electronics(keyboardPrices, USBprices, 50);
+        System.out.println(electronics.cheapestKeyboard());
+
+        //punkt 2
+        keyboardPrices = new int[]{15, 20, 10, 35};
+        Electronics electronics1 = new Electronics(keyboardPrices, USBprices, 60);
+        System.out.println(electronics1.mostExpensiveProduct());
+
+        //punkt 3
+        System.out.println(electronics1.affordableUSB());
+
+        //punkt 4
+        keyboardPrices = new int[]{40, 50, 60};
+        USBprices = new int[]{8, 12};
+        Electronics electronics2 = new Electronics(keyboardPrices, USBprices, 60);
+        System.out.println(electronics2.maxSum());
 
 
     }
