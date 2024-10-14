@@ -49,7 +49,7 @@ public class Main {
         int[] sumNr= bigNumbers.sum();
         for (int i = 0; i < sumNr.length; i++)
         {
-            System.out.print(sumNr[i] + " ");
+            System.out.println(sumNr[i] + " ");
         }
 
         //punkt2
