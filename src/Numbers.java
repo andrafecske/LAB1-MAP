@@ -27,9 +27,8 @@ public class Numbers {
 
     public int findSum(){
         int sum = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            sum += numbers[i];
-
+        for (int number : numbers) {
+            sum += number;
         }
         return sum;
     }

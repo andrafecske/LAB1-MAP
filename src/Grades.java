@@ -37,8 +37,6 @@ public class Grades {
     //punkt 3
     public int[] rounded() {
         int[] res = new int[grades.length];
-        int k = 0;
-        boolean valid;
         for (int i = 0; i < grades.length; i++) {
             int add=0;
 
